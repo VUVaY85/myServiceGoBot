@@ -1,1 +1,33 @@
-settings.env
+===== ENV / SECRETS =====
+
+*.env
+
+===== BUILD FILES =====
+
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+===== GO BUILD / DEBUG =====
+
+__debug_bin*
+*.prof
+
+===== DATABASE =====
+
+*.db
+*.sqlite
+*.sqlite3
+
+===== IDE =====
+
+.vscode/
+.idea/
+
+===== OS FILES =====
+
+.DS_Store
