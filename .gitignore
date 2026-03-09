@@ -1,9 +1,8 @@
-===== ENV / SECRETS =====
+# ===== ENV =====
+.env
+.env.*
 
-*.env
-
-===== BUILD FILES =====
-
+# ===== BUILD =====
 *.exe
 *.exe~
 *.dll
@@ -12,22 +11,18 @@
 *.test
 *.out
 
-===== GO BUILD / DEBUG =====
-
+# ===== GO DEBUG =====
 __debug_bin*
 *.prof
 
-===== DATABASE =====
-
+# ===== DATABASE =====
 *.db
 *.sqlite
 *.sqlite3
 
-===== IDE =====
-
+# ===== IDE =====
 .vscode/
 .idea/
 
-===== OS FILES =====
-
+# ===== OS =====
 .DS_Store
